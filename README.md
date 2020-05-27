@@ -20,6 +20,13 @@ $ java -jar build/libs/todoapi-0.0.1-SNAPSHOT.jar
 http://localhost:8080/swagger-ui.html
 ```
 
+### TODO
+
+* BuildPack 버전 확인 
+* CF 배포하는 다른 방법이 있는 지 확인 ... (배포시 빌드한다던가 ... )
+* CF - SERVICE : MySQL 바인딩 하면 MySQL 로 아니면 H2 데이터베이스 사용 
+* 내용을 TODO 사용 데이터로 변경 필요 ...
+
 ### Links
 
 * [JPA Data with REST](https://spring.io/guides/gs/accessing-data-rest/)
