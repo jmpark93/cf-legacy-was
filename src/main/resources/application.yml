@@ -17,6 +17,7 @@ spring:
 #      return-body-on-create: false
 #      return-body-on-update: false
 #      base-path: /api
+
 #      default-page-size: 10
 
 #spring:
@@ -27,7 +28,7 @@ spring:
 
 ---
 spring:
-  profiles: mysql
+  profiles: local
   jpa:
     hibernate:
       ddl-auto: update
