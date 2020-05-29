@@ -30,4 +30,5 @@ http://localhost:8080/swagger-ui.html
 ### Links
 
 * [JPA Data with REST](https://spring.io/guides/gs/accessing-data-rest/)
+* [한글로 된 자료](https://freedeveloper.tistory.com/25)
 * [Swagger 2 with a Spring REST API](https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api)

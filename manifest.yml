@@ -8,9 +8,6 @@ applications:
     path: build/libs/todoapi-0.0.1-SNAPSHOT.jar
     env:
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+}}'
-#      APP_NAME: 'gateway'
-#      SPRING_PROFILES_ACTIVE: dev
-#      CONFIG_URL: 'http://config.private.kpaasta.kr/'
     routes:
-      - route: cf-legacy-api.kpaasta.io
-      - route: cf-legacy-api.cf.intl
+      - route: legtodo.kpaasta.io
+      - route: legtodo.cf.intl

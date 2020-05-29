@@ -1,4 +1,4 @@
-package com.jmworks.todoapi;
+package com.jmworks.todoapi.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -22,8 +22,8 @@ public class SwaggerConfig {
                 .apis(RequestHandlerSelectors.any())
                 .paths(PathSelectors.any())
                 .build();
-//                .apis(RequestHandlerSelectors.basePackage("com.baeldung.web.controller"))
-//                .paths(PathSelectors.ant("/foos/*"))
+//                .apis(RequestHandlerSelectors.basePackage("com.jmworks.todoapi"))
+//                .paths(PathSelectors.ant("/api/*"))
     }
 
 }
