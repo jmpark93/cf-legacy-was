@@ -1,7 +1,15 @@
-#spring:
-#  devtools:
-#    livereload:
-#      enabled: false
+spring:
+  devtools:
+    livereload:
+      enabled: false
+  h2:
+    console:
+      enabled: true
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:todo
+    username: todo
+    password: koscom
 
 #spring:
 #  data:
@@ -26,17 +34,5 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: "jdbc:mysql://localhost:3306/todo"
-    username: todo
-    password: koscom
-
----
-spring:
-  profiles: h2
-  h2:
-    console:
-      enabled: true
-  datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:todo
     username: todo
     password: koscom
