@@ -22,8 +22,8 @@ public class RepositoryRestConfig implements RepositoryRestConfigurer {
                 .toArray(Class[]::new));
 
         config.setBasePath("/api");
-        config.setReturnBodyOnCreate(false);
-        config.setReturnBodyOnUpdate(false);
+        config.setReturnBodyOnCreate(true);
+        config.setReturnBodyOnUpdate(true);
 
     }
 }
