@@ -1,7 +1,10 @@
 spring:
-#  devtools:
-#    livereload:
-#      enabled: false
+  devtools:
+    livereload:
+      enabled: false
+  jpa:
+    hibernate:
+      ddl-auto: update
   h2:
     console:
       enabled: true
@@ -12,6 +15,11 @@ spring:
     url: jdbc:h2:mem:todo
     username: todo
     password: koscom
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/todo
+#    username: todo
+#    password: koscom
 
 #spring:
 #  data:
@@ -29,16 +37,3 @@ spring:
 
 server:
   port: 8081
-
----
-
-spring:
-  profiles: local
-  jpa:
-    hibernate:
-      ddl-auto: update
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: "jdbc:mysql://localhost:3306/todo"
-    username: todo
-    password: koscom

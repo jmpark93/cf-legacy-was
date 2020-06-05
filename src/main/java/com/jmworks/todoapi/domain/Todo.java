@@ -3,10 +3,7 @@ package com.jmworks.todoapi.domain;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.Date;
 
@@ -18,6 +15,8 @@ public class Todo {
     private Long id;
 
     private String todoItem;
+
+    @Column(columnDefinition = "boolean default false")
     private boolean isDone;
 
     @CreationTimestamp

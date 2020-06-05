@@ -9,5 +9,5 @@ applications:
     env:
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+}}'
     routes:
-      - route: legtodo.kpaasta.io
-      - route: legtodo.cf.intl
+      - route: legtodo-api.kpaasta.io
+      - route: legtodo-api.cf.intl

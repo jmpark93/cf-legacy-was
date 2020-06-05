@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @CrossOrigin
-@RequestMapping("/api")
+@RequestMapping("/")
 @RepositoryRestController
 public class TodoController {
 
